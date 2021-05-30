@@ -5,7 +5,7 @@ clc
 %%Please use the ramp reference signal in the simulation(i.e set the corresponding signal generator in the simulation connected to the system)
 
 %G(s)=10/(s*(s+5)*(s+10))
-%da(t)=?a*?(t) where |?a|<=0.3
+%da(t)=delta_a*E(t) where |delta_a|<=0.3
 
 %%Design a cascade controller C(s) in order to meet the following
 %%requirements.
