@@ -6,12 +6,12 @@ clc
 %%Please use the unit step reference signal in the simulation (i.e set the corresponding signal generator in the simulation connected to the system)
 
 %G(s)=2*e^(-9.066s)/((0.21s+1)*(4s+1))
-%da(t)=?a*?(t) where |?a|<=0.01
+%da(t)=delta_a*E(t) where |delta_a|<=0.01
 
 %%Design a cascade controller C(s) in order to meet the following
 %%requirements.
 
-%1. | (e^inf)r|=1 ,r(t)=t?(t)
+%1. | (e^inf)r|=1 ,r(t)=tE(t)
 %unitary slope
 %2. |(Y^inf)da|<=0.001;
 %3. S(overshoot value)<=10%;
